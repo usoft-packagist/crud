@@ -24,7 +24,7 @@ abstract class ApiBaseController implements ApiController
     public function singleItem($resource, $item, $status_code = 200)
     {
         return response()->json([
-            "data" => new $resource($item)
+            "result" => new $resource($item)
         ], $status_code);
     }
 
@@ -39,7 +39,7 @@ abstract class ApiBaseController implements ApiController
                 'totalPage' => $items->lastPage(),
                 'totalItem' => $items->total(),
             ],
-            'data' => $resource::collection($items->items())
+            'result' => $resource::collection($items->items())
         ], $status_code);
     }
 
@@ -70,7 +70,7 @@ abstract class ApiBaseController implements ApiController
                 'totalPage' => $items->lastPage(),
                 'totalItem' => $items->total(),
             ],
-            'data' => $resource::collection($items->items())
+            'result' => $resource::collection($items->items())
         ], $status_code);
     }
 
