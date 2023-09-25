@@ -61,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Usoft\\Crud\\Usoft\Crud\ServiceProvider"
+                "Usoft\\Crud\\UsoftCrudServiceProvider"
             ]
         }
     }
