@@ -5,7 +5,6 @@ namespace Usoft\Crud\Responses;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Usoft\Crud\Services\Merchant\Responses\MerchantResource;
 use Usoft\Crud\Services\Upload\Responses\UploadResource;
 use Usoft\Crud\Services\User\Responses\UserResource;
 

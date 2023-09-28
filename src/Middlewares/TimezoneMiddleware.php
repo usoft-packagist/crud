@@ -2,7 +2,6 @@
 
 namespace Usoft\Crud\Middlewares;
 
-use Carbon\Carbon;
 use Closure;
 use Illuminate\Http\Request;
 

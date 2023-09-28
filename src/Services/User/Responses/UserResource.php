@@ -3,7 +3,6 @@
 namespace Usoft\Crud\Services\User\Responses;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Usoft\Crud\Services\Upload\Responses\UploadResource;
 
 class UserResource extends JsonResource
 {

@@ -6,7 +6,6 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Log;
-use stdClass;
 use Usoft\Crud\Interfaces\ApiController;
 
 abstract class ApiBaseController implements ApiController
